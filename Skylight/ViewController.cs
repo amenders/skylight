@@ -19,8 +19,15 @@ namespace Skylight
 
         async partial void AsteroidButton_TouchUpInside(UIButton sender)
         {
-            var data = await asteroids.GetAsteroidAsync(3542519);
-            Console.WriteLine(data);
+            try
+            {
+                var data = await asteroids.GetAsteroidByDateAsync(new DateTime(2019, 1, 10), new DateTime(2019, 1, 9));
+                Console.WriteLine(data);
+            } 
+            catch (InvalidAsteroidParametersException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         public override void DidReceiveMemoryWarning()

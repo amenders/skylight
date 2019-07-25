@@ -146,6 +146,7 @@
         <Compile Include="Service.designer.cs">
           <DependentUpon>Service.cs</DependentUpon>
         </Compile>
+        <Compile Include="InvalidAsteroidParametersException.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
