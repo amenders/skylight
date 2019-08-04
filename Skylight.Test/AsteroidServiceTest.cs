@@ -20,7 +20,6 @@ namespace Skylight.Test
         }
 
         [Test]
-        [Ignore("another time")]
         public void Ignore()
         {
             Assert.True(false);
