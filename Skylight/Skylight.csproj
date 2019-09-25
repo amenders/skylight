@@ -124,7 +124,6 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
-        <Folder Include="Services\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -141,12 +140,12 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
-        <Compile Include="Services\AsteroidService.cs" />
         <Compile Include="Service.cs" />
         <Compile Include="Service.designer.cs">
           <DependentUpon>Service.cs</DependentUpon>
         </Compile>
         <Compile Include="InvalidAsteroidParametersException.cs" />
     </ItemGroup>
+    <Import Project="..\Skylight.Services\Skylight.Services.projitems" Label="Shared" Condition="Exists('..\Skylight.Services\Skylight.Services.projitems')" />
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
