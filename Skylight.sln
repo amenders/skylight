@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skylight.Test", "Skylight.Test\Skylight.Test.csproj", "{49C588D7-B9B3-4DE9-89F9-20EEFDC3C44F}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Skylight.Services", "Skylight.Services\Skylight.Services.shproj", "{558B594E-7FE9-4AC4-80B3-236EF9DD6BCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skylight.Services", "Skylight.Services\Skylight.Services.csproj", "{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +36,13 @@ Global
 		{49C588D7-B9B3-4DE9-89F9-20EEFDC3C44F}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{49C588D7-B9B3-4DE9-89F9-20EEFDC3C44F}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{49C588D7-B9B3-4DE9-89F9-20EEFDC3C44F}.Release|iPhone.Build.0 = Release|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

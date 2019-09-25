@@ -71,12 +71,6 @@
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
-      <PackageReference Include="System.Net.Http">
-        <Version>4.3.4</Version>
-      </PackageReference>
-      <PackageReference Include="Newtonsoft.Json">
-        <Version>12.0.2</Version>
-      </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -144,8 +138,12 @@
         <Compile Include="Service.designer.cs">
           <DependentUpon>Service.cs</DependentUpon>
         </Compile>
-        <Compile Include="InvalidAsteroidParametersException.cs" />
     </ItemGroup>
-    <Import Project="..\Skylight.Services\Skylight.Services.projitems" Label="Shared" Condition="Exists('..\Skylight.Services\Skylight.Services.projitems')" />
+    <ItemGroup>
+      <ProjectReference Include="..\Skylight.Services\Skylight.Services.csproj">
+        <Project>{96CBFEAA-E3CC-4344-BB68-ACAC2151CB19}</Project>
+        <Name>Skylight.Services</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
